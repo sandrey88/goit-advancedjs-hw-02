@@ -31,7 +31,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #2e2f42;
-    background: none;
 }
 
 .delay-input input {
@@ -45,6 +44,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #2e2f42;
+    background: none;
     transition: border-color 0.3s;
 }
 
@@ -60,18 +60,17 @@ fieldset {
     margin-top: 16px;
     margin-bottom: 24px;
     border-radius: 4px;
-    stroke-width: 1px;
-    stroke: red;
+    border: 1px solid #808080;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #2e2f42;
-    transition: stroke 0.3s;
+    transition: border 0.3s;
 }
 
-fieldset:hover fieldset:active {
-    stroke: #000;
+fieldset:hover, fieldset:active {
+    border-color: #000;
 }
 
 .labels {
